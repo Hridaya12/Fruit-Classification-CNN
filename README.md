@@ -8,6 +8,6 @@ Dataset:
 The dataset used for training consists of images of various fruits categorized into different classes.
 Ensure the dataset follows a structured format with separate folders for each class of fruit.
 Model:
-The model architecture used is ResNet50.
+The model architecture used is VGG16
 For training from scratch, the model is initialized randomly and trained on the dataset.
 For transfer learning, the pretrained ResNet50 model is loaded and fine-tuned on the dataset.
